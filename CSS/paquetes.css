@@ -1,0 +1,85 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #443310; /* Color de fondo */
+    color: rgb(212, 166, 13); /* Color del texto */
+    text-align: center; /* Centrado de texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+
+header img {
+    width: 150px;  /* Ajusta el tamaño de la imagen */
+    margin-right: 15px;  /* Espacio entre la imagen y el texto */
+}
+
+/* Estilos para el título dentro del header */
+header h1 {
+    margin: 30;
+    color: white; /* Título blanco */
+    
+}
+
+/* Estilos de la navegación */
+nav ul {
+    list-style-type: none; /* Elimina los puntos de las listas */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Elementos en línea */
+    margin-right: 15px; /* Espacio entre los elementos del menú */
+}
+
+nav ul li a {
+    color: #D4A613; /* Color dorado para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+/* Estilos para la sección de paquetes */
+section {
+    padding: 20px;
+}
+
+/* Estilos para cada paquete */
+.paquete {
+    display: inline-block;
+    width: 30%; /* Ancho de cada paquete */
+    margin: 20px;
+    text-align: center;
+    background-color: #fff; /* Fondo blanco para los paquetes */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo de las imágenes dentro de los paquetes */
+.paquete img {
+    width: 100%;
+    max-width: 250px; /* Tamaño máximo para las imágenes */
+    height: auto; /* Mantener la proporción de las imágenes */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Fondo oscuro para el pie de página */
+    color: white; /* Color del texto blanco */
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

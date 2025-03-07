@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #443310;
+    color: rgb(212, 166, 13);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    margin-right: 15px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #D4A613;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Estilos del contenido de misión y visión */
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.caja {
+    background-color: white;
+    color: black;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.caja h2 {
+    color: #8B4513; /* Marrón oscuro */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.caja p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 10px;
+}

@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #443310;
+    color: rgb(212, 166, 13);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+header img {
+    width: 150px;  /* Ajusta el tamaño de la imagen */
+    margin-right: 15px;  /* Espacio entre la imagen y el texto */
+}
+
+/* Estilos para la sección de ubicación */
+.ubicacion {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.ubicacion h2 {
+    color: #ffd700;  /* Color dorado */
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mapa iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

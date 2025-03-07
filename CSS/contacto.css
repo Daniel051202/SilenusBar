@@ -1,0 +1,170 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #443310;
+    color: rgb(212, 166, 13);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+header img {
+    width: 150px; /* Tamaño del logo */
+    margin-right: 15px;
+
+}
+
+header h1 {
+    color: rgb(212, 166, 13);
+    margin: 0;
+}
+
+/* Navegación */
+nav {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(212, 166, 13);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* Sección de Contacto */
+.contacto {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #2e2212;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contacto h2 {
+    margin-bottom: 15px;
+    color: #ffd700;
+}
+
+.contacto p {
+    font-size: 16px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(212, 166, 13);
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+/* Información de Contacto */
+.info-contacto {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #2e2212;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.info-contacto h2 {
+    color: #ffd700;
+}
+
+.info-contacto p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Enlace de Instagram */
+.info-contacto a {
+    color: #ffcc00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info-contacto a:hover {
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #ddd;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: rgb(212, 166, 13);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
